@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Masters CST 2021</title>
+</head>
+<body>
+<h1>
+	<form action="allClientsAL.php" method="get">
+		<input type="submit" value="All users"/>
+	</form> 
+</h1>
+<h2>
+	<h3>Delete Client</h3>
+	<form action="deleteClientAL.php" method="post">
+	   Enter Details: <br>
+	   <label for="clientId" >Input Client ID</label>
+	   <input type="number" name="clientId"/><br>
+	   <input type="submit" value="Submit" />
+	</form>
+</h2>
+<h1>
+	<h3>Find Client</h3>
+   	<form action="findClientAL.php" method="post">
+		Enter Details: <br/>
+		<label for="clientId" >Input Client ID</label>
+		<input type="number" name="clientId"/><br/>
+		<input type="submit" value="Submit" />
+	</form>
+</h1>
+</body>
+</html>
